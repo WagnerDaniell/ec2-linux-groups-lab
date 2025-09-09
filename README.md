@@ -19,6 +19,9 @@ Este repositório documenta, passo a passo, um laboratório realizado na **Amazo
 * Inicie uma instância EC2 (Amazon Linux), tipo t2.micro/t3.micro (Free Tier elegível), com Security Group liberando **SSH (22)** para seu IP.
 * Conecte via SSH como `ec2-user`.
 
+![Instância EC2 no painel AWS](images/ec2-dashboard.jpeg)
+
+
 ### 2) Verificar contexto inicial
 
 ```bash
