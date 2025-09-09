@@ -39,7 +39,7 @@ Listar usuários (somente nomes):
 sudo cat /etc/passwd | cut -d: -f1
 ```
 
-![Usuários criados](images/01-usuarios-criados.png)
+![Usuários criados](images/01-usuarios-criados.PNG)
 
 ### 4) Criar grupos e listar
 
@@ -80,7 +80,7 @@ exit
 sudo cat /var/log/secure
 ```
 
-![Log mostrando tentativa de sudo](images/04-log-segurança.png)
+![Log mostrando tentativa de sudo](images/04-log-segurança.PNG)
 
 ```
 sudo: arosalez : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/ec2-user ; USER=root ; COMMAND=/bin/touch#040myFile.txt
